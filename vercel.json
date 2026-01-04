@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npx quartz build",
+  "outputDirectory": "public",
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1.html" }
+  ]
+}
