@@ -1,7 +1,4 @@
 {
   "buildCommand": "npx quartz build",
-  "outputDirectory": "public",
-  "routes": [
-    { "src": "^/$", "dest": "/index.html" }
-  ]
+  "outputDirectory": "public"
 }
